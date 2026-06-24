@@ -514,5 +514,25 @@ button:hover,
 .btn:hover {
     background-color: #06B6D4;
 }body {
-    background-color: red;
+    background-color: #F8FAFC;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #0A192F;
+}
+
+a {
+    color: #2563EB;
+}.navbar {
+    background-color: #0A192F;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #06B6D4;
 }
