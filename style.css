@@ -513,4 +513,6 @@ button,
 button:hover,
 .btn:hover {
     background-color: #06B6D4;
+}body {
+    background-color: red;
 }
