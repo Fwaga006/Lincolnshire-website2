@@ -467,4 +467,50 @@ p{
 
 .nav-links a:hover{
     color:#06B6D4;
+}.portfolio-grid {
+
+display: grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap: 20px;
+}
+
+.project {
+
+padding: 30px;
+
+background: white;
+
+border-radius: 10px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,0.1);
+}body {
+    background-color: #F8FAFC;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #0A192F;
+}
+
+a {
+    color: #2563EB;
+}
+
+button,
+.btn {
+    background-color: #2563EB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #06B6D4;
 }
