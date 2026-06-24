@@ -428,4 +428,17 @@ footer p{
     margin-top:20px;
 }
 
+}body{
+    background-color:#F8FAFC;
+    color:#1E293B;
+    font-family:Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#0F172A;
+    font-weight:700;
+}
+
+p{
+    color:#475569;
 }
