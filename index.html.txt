@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lincolnshire | Turning Data into Decisions</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+<i class="fas fa-chart-line text-warning"></i>
+Lincolnshire
+</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="portfolio.html">Portfolio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="blog.html">Blog</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="careers.html">Careers</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="login.html">Login</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Turning Data into Decisions</h1>
+
+<p>
+At Lincolnshire, we transform data into actionable insights and innovative digital solutions.
+We specialize in Data Management, Data Analysis, Data Visualization,
+Web Development, and Business Intelligence.
+</p>
+
+<div class="hero-buttons">
+
+<a href="quote.html" class="btn btn-warning btn-lg">
+Request Quote
+</a>
+
+<a href="services.html" class="btn btn-outline-light btn-lg">
+Our Services
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2>Our Services</h2>
+
+<p>
+Professional data and digital solutions tailored for modern businesses.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-6 col-lg-3">
+
+<div class="service-card">
+
+<i class="fas fa-database"></i>
+
+<h4>Data Management</h4>
+
+<p>
+Data collection, cleaning, migration,
+quality assurance and database administration.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3">
+
+<div class="service-card">
+
+<i class="fas fa-chart-bar"></i>
+
+<h4>Data Analysis</h4>
+
+<p>
+Business intelligence, predictive analytics,
+research and reporting solutions.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3">
+
+<div class="service-card">
+
+<i class="fas fa-chart-pie"></i>
+
+<h4>Data Visualization</h4>
+
+<p>
+Interactive dashboards,
+KPI monitoring and executive reports.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3">
+
+<div class="service-card">
+
+<i class="fas fa-code"></i>
+
+<h4>Web Development</h4>
+
+<p>
+Corporate websites,
+e-commerce and business management systems.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="why-us">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2>Why Choose Lincolnshire</h2>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-4 mb-4">
+
+<h5>Expertise You Can Trust</h5>
+
+<p>Strong technical knowledge and practical experience.</p>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<h5>Tailored Solutions</h5>
+
+<p>Customized services designed around your needs.</p>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<h5>Quality & Reliability</h5>
+
+<p>Secure, scalable and accurate solutions.</p>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<h5>Innovation</h5>
+
+<p>Modern technologies and future-ready systems.</p>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<h5>Client Focus</h5>
+
+<p>Your success remains our highest priority.</p>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<h5>Data Driven</h5>
+
+<p>Transforming information into actionable insights.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<h2>250+</h2>
+
+<p>Projects Delivered</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2>98%</h2>
+
+<p>Client Satisfaction</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2>24/7</h2>
+
+<p>Support</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2>100%</h2>
+
+<p>Quality Focus</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Client Testimonials
+</h2>
+
+<div id="testimonialSlider"
+class="carousel slide"
+data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<div class="testimonial-card">
+
+<p>
+"Lincolnshire transformed our reporting process
+through powerful dashboards and data insights."
+</p>
+
+<h6>Corporate Client</h6>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="testimonial-card">
+
+<p>
+"Professional website development and excellent customer support."
+</p>
+
+<h6>Business Owner</h6>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container text-center">
+
+<h2>
+Ready to Transform Your Data?
+</h2>
+
+<p>
+Let's build innovative solutions that drive growth and success.
+</p>
+
+<a href="contact.html"
+class="btn btn-warning btn-lg">
+
+Get Started
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+
+<h4>Lincolnshire</h4>
+
+<p>Turning Data into Decisions</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h5>Contact</h5>
+
+<p>Karen, Nairobi</p>
+<p>0704360457</p>
+<p>abralifwaga@gmail.com</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h5>Services</h5>
+
+<p>Data Management</p>
+<p>Data Analysis</p>
+<p>Data Visualization</p>
+<p>Web Development</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+© 2026 Lincolnshire. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/254704360457"
+class="whatsapp-btn">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
