@@ -541,21 +541,15 @@ a {
 }
 
 .team-member img {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 20px;
+}
 }.navbar-brand img {
     margin-right: 10px;
     border-radius: 5px;
 }
 
-.team-member h4 {
-    margin-top: 15px;
-}.team-member img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
 }
