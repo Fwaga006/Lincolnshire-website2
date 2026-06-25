@@ -546,6 +546,9 @@ a {
     object-fit: cover;
     border-radius: 50%;
     margin-top: 20px;
+}.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 .team-member h4 {
