@@ -553,4 +553,9 @@ a {
 
 .team-member h4 {
     margin-top: 15px;
+}.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
