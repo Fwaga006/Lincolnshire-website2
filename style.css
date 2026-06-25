@@ -550,9 +550,11 @@ a {
 }.navbar-brand img {
     margin-right: 10px;
     border-radius: 5px;
-}img {
-    max-width: 150px;
-    height: auto;
-}
-
+.team-member img {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0 auto;
 }
