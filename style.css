@@ -23,6 +23,12 @@ body{
 
 .navbar-brand{
     font-size:1.5rem;
+    font-weight:700;
+}
+
+.navbar-brand img{
+    margin-right:10px;
+    border-radius:5px;
 }
 
 .nav-link{
@@ -82,7 +88,7 @@ body{
     text-align:center;
     border-radius:15px;
     box-shadow:0 5px 20px rgba(0,0,0,.08);
-    transition:.3s;
+    transition:0.3s;
     height:100%;
 }
 
@@ -154,433 +160,116 @@ body{
     font-weight:700;
 }
 
-/* FOOTER */
+/* PORTFOLIO */
 
-footer{
-    background:#0F172A;
-    color:white;
-    padding:60px 0 20px;
+.portfolio-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
 }
 
-footer h4,
-footer h5{
-    color:#D4AF37;
-}
-
-footer p{
-    margin-bottom:8px;
-}
-
-/* WHATSAPP BUTTON */
-
-.whatsapp-btn{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    width:60px;
-    height:60px;
-    background:#25D366;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    font-size:30px;
-    text-decoration:none;
-    z-index:999;
-    box-shadow:0 4px 15px rgba(0,0,0,.3);
-}
-
-.whatsapp-btn:hover{
-    color:white;
-    transform:scale(1.1);
-}
-
-/* MOBILE */
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:2.5rem;
-}
-
-.hero p{
-    font-size:1rem;
-}
-
-.stats h2{
-    font-size:2rem;
-    margin-top:20px;
-}
-
-}*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#ffffff;
-    color:#333;
-}
-
-/* NAVBAR */
-
-.navbar{
-    background:#0F172A;
-    padding:15px 0;
-}
-
-.navbar-brand{
-    font-size:1.5rem;
-}
-
-.nav-link{
-    color:white !important;
-    margin-left:10px;
+.project{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
     transition:0.3s;
 }
 
-.nav-link:hover{
-    color:#D4AF37 !important;
+.project:hover{
+    transform:translateY(-8px);
 }
 
-/* HERO */
+/* TEAM */
 
-.hero{
-    min-height:100vh;
-    background:linear-gradient(
-    rgba(15,23,42,0.85),
-    rgba(15,23,42,0.85)),
-    url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600');
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.team{
+    padding:60px 20px;
     text-align:center;
-    color:white;
-    padding:100px 20px;
 }
 
-.hero h1{
-    font-size:4rem;
-    font-weight:700;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:800px;
-    margin:auto;
-    margin-bottom:30px;
-    font-size:1.1rem;
-}
-
-.hero-buttons a{
-    margin:10px;
-}
-
-/* SERVICES */
-
-.services{
-    padding:80px 0;
-}
-
-.service-card{
-    background:white;
-    padding:30px;
-    text-align:center;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-    transition:.3s;
-    height:100%;
-}
-
-.service-card:hover{
-    transform:translateY(-10px);
-}
-
-.service-card i{
-    font-size:3rem;
-    color:#D4AF37;
-    margin-bottom:15px;
-}
-
-/* WHY US */
-
-.why-us{
-    background:#F8FAFC;
-    padding:80px 0;
-}
-
-.why-us h5{
-    color:#0F172A;
-    margin-bottom:10px;
-}
-
-/* STATS */
-
-.stats{
-    background:#0F172A;
-    color:white;
-    padding:80px 0;
-}
-
-.stats h2{
-    color:#D4AF37;
-    font-size:3rem;
-    font-weight:bold;
-}
-
-/* TESTIMONIALS */
-
-.testimonials{
-    background:white;
-}
-
-.testimonial-card{
-    max-width:700px;
-    margin:auto;
-    text-align:center;
-    padding:30px;
-}
-
-.testimonial-card p{
-    font-size:1.2rem;
-    font-style:italic;
-}
-
-/* CTA */
-
-.cta{
-    background:#D4AF37;
-    color:#0F172A;
-    text-align:center;
-    padding:80px 20px;
-}
-
-.cta h2{
-    margin-bottom:20px;
-    font-weight:700;
-}
-
-/* FOOTER */
-
-footer{
-    background:#0F172A;
-    color:white;
-    padding:60px 0 20px;
-}
-
-footer h4,
-footer h5{
-    color:#D4AF37;
-}
-
-footer p{
-    margin-bottom:8px;
-}
-
-/* WHATSAPP BUTTON */
-
-.whatsapp-btn{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    width:60px;
-    height:60px;
-    background:#25D366;
+.team-member img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
     border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    font-size:30px;
-    text-decoration:none;
-    z-index:999;
-    box-shadow:0 4px 15px rgba(0,0,0,.3);
-}
-
-.whatsapp-btn:hover{
-    color:white;
-    transform:scale(1.1);
-}
-
-/* MOBILE */
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:2.5rem;
-}
-
-.hero p{
-    font-size:1rem;
-}
-
-.stats h2{
-    font-size:2rem;
-    margin-top:20px;
-}
-
-}body{
-    background-color:#F8FAFC;
-    color:#1E293B;
-    font-family:Arial, sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-    color:#0F172A;
-    font-weight:700;
-}
-
-p{
-    color:#475569;
-}.navbar{
-    background:#0F172A;
-    padding:15px 40px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.logo{
-    color:white;
-    font-size:22px;
-    font-weight:bold;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-weight:600;
-}
-
-.nav-links a:hover{
-    color:#06B6D4;
-}.portfolio-grid {
-
-display: grid;
-
-grid-template-columns:
-repeat(auto-fit,minmax(280px,1fr));
-
-gap: 20px;
-}
-
-.project {
-
-padding: 30px;
-
-background: white;
-
-border-radius: 10px;
-
-box-shadow:
-0 5px 15px rgba(0,0,0,0.1);
-}body {
-    background-color: #F8FAFC;
-    color: #333333;
-    font-family: Arial, sans-serif;
-}
-
-h1, h2, h3 {
-    color: #0A192F;
-}
-
-a {
-    color: #2563EB;
-}
-
-button,
-.btn {
-    background-color: #2563EB;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover,
-.btn:hover {
-    background-color: #06B6D4;
-}body {
-    background-color: #F8FAFC;
-    color: #333333;
-    font-family: Arial, sans-serif;
-}
-
-h1, h2, h3 {
-    color: #0A192F;
-}
-
-a {
-    color: #2563EB;
-}.navbar {
-    background-color: #0A192F;
-}
-
-.navbar a {
-    color: white;
-}
-
-.navbar a:hover {
-    color: #06B6D4;
-}.team {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.team-member img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-}.navbar-brand img {
-    margin-right: 10px;
-    border-radius: 5px;
-.team-member img {
-    width: 120px !important;
-    height: 120px !important;
-    object-fit: cover !important;
-    border-radius: 50% !important;
-    display: block;
-    margin: 0 auto;
-}@media (max-width:768px){
-
-.navbar-brand{
-    font-size:1.1rem;
-}
-
-.hero h1{
-    font-size:2rem;
-}
-
-.hero p{
-    font-size:0.95rem;
-}
-
-.hero-buttons .btn{
     display:block;
-    width:100%;
-    margin:10px 0;
+    margin:0 auto 15px;
 }
 
-.service-card{
-    margin-bottom:20px;
-}
+/* FOOTER */
 
 footer{
-    text-align:center;
+    background:#0F172A;
+    color:white;
+    padding:60px 0 20px;
+}
+
+footer h4,
+footer h5{
+    color:#D4AF37;
+}
+
+footer p{
+    margin-bottom:8px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:30px;
+    text-decoration:none;
+    z-index:999;
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+}
+
+.whatsapp-btn:hover{
+    color:white;
+    transform:scale(1.1);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .navbar-brand{
+        font-size:1.1rem;
+    }
+
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .hero-buttons .btn{
+        display:block;
+        width:100%;
+        margin:10px 0;
+    }
+
+    .stats h2{
+        font-size:2rem;
+        margin-top:20px;
+    }
+
+    .service-card{
+        margin-bottom:20px;
+    }
+
+    footer{
+        text-align:center;
+    }
 }
