@@ -557,4 +557,30 @@ a {
     border-radius: 50% !important;
     display: block;
     margin: 0 auto;
+}@media (max-width:768px){
+
+.navbar-brand{
+    font-size:1.1rem;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.hero p{
+    font-size:0.95rem;
+}
+
+.hero-buttons .btn{
+    display:block;
+    width:100%;
+    margin:10px 0;
+}
+
+.service-card{
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
 }
